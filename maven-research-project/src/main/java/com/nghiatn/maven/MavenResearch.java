@@ -22,7 +22,7 @@ import java.util.Arrays;
 
 @Slf4j
 @SpringBootApplication // scan all components in the same package with MavenResearch
-//@PropertySource(ignoreResourceNotFound = true, value = "classpath:git.properties")
+@PropertySource(ignoreResourceNotFound = true, value = "classpath:git.properties")
 public class MavenResearch {
 
     @Value("${git.commit.id:UNKNOWN}")
