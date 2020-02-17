@@ -46,6 +46,7 @@ public class GrpcPingControllerTest extends GrpcServerTestBase {
 
         // THEN
         assertThat(response.getResponse(), Is.is("pong"));
+        assertThat(response.getReturncode(), Is.is(1));
     }
 
 }

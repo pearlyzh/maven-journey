@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 9901
 spring:
   application:
     name: maven-research-service
@@ -29,4 +29,4 @@ spring:
       connectionTimeout: 30000
       maxLifetime: 1800000
 grpc:
-  port: 6568
+  port: 6570

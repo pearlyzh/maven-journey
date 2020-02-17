@@ -1,8 +1,8 @@
 server:
-  port: 9001
+  port: 9900
 spring:
   application:
-    name: maven-research-service
+    name: maven-research-service-client
   jpa:
     open-in-view: false
     hibernate:
@@ -20,7 +20,7 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/maven-research-db?useSSL=false
+    url: jdbc:mysql://localhost:3306/maven-research-db-client?useSSL=false
 
     hikari:
       minimumIdle: 4
@@ -28,5 +28,8 @@ spring:
       maximumPoolSize: 8
       connectionTimeout: 30000
       maxLifetime: 1800000
-grpc:
-  port: 6569
+
+server-research:
+  grpc:
+    host: localhost
+    port: 6570

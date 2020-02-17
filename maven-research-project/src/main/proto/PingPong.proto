@@ -10,10 +10,11 @@ service PingGRpcService {
 }
 
 message PingRequest {
-
+    string request = 1;
 }
 
 message PingResponse {
     string response = 1;
+    int32 returncode = 2;
 }
 

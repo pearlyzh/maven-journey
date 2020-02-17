@@ -14,7 +14,7 @@ import javax.persistence.*;
 @Setter
 @Builder
 @Entity
-@Table(name = "Message")
+@Table(name = "MessageClient")
 public class MessageEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
