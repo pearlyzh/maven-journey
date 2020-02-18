@@ -22,6 +22,8 @@ An experimental journey using a bunch of tools and technologies in a simple but 
   Another (cache) layer in the services to make them more and more complicated
   - #### RocketMQ: 
   Bored of using Kafka for messaging and streaming so just go with this toy for a while
+  - #### Seata: 
+  Big boy for handling distributed-transactions
 
 
 ### Build tools:
