@@ -33,3 +33,8 @@ server-research:
   grpc:
     host: localhost
     port: 6570
+dubbo:
+  provider:
+    timeout: 9999
+  consumer:
+    timeout: 6666
