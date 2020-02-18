@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(PingController.class)
- @ContextConfiguration(classes= MavenResearch.class) // not understand yet
+@ContextConfiguration(classes= MavenResearch.class) // not understand yet
 public class PingControllerTest {
 
     @Autowired

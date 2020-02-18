@@ -5,3 +5,6 @@ https://stackoverflow.com/a/50130875/6085492
 
 JPA config
 https://www.baeldung.com/spring-open-session-in-view
+
+Jcoco report
+clean jacoco:prepare-agent install jacoco:report

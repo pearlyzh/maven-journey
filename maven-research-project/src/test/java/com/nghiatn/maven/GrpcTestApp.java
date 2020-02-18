@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -23,8 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
                 //
                 JmsAutoConfiguration.class,
                 //
-                HibernateJpaAutoConfiguration.class,
-                DataSourceAutoConfiguration.class,
+//                HibernateJpaAutoConfiguration.class,
+//                DataSourceAutoConfiguration.class,
         }
 )
 @ComponentScan(
@@ -34,7 +35,7 @@ import org.springframework.web.bind.annotation.RestController;
 )
 public class GrpcTestApp {
 
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         SpringApplication.run(GrpcTestApp.class, args);
     }
 }

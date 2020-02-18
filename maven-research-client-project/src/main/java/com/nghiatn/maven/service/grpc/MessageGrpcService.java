@@ -50,9 +50,4 @@ public class MessageGrpcService {
         }
 
     }
-
-    @Override
-    protected void finalize() throws Throwable {
-
-    }
 }
