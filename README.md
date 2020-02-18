@@ -1,7 +1,7 @@
 # maven-journey
 An experimental journey using a bunch of tools and technologies in a simple but of course, miscellaneous, service-based architecture.
 
-List of main Tools and Technologies:
+### List of main Tools and Technologies:
   - #### Spring Boot:
   Starter web-service template
   - #### Maven: 
@@ -24,6 +24,6 @@ List of main Tools and Technologies:
   Bored of using Kafka for messaging and streaming so just go with this toy for a while
 
 
-Build tools:
+### Build tools:
   - #### Maven
   - #### Jenkins and Github for CI/CD
