@@ -37,14 +37,23 @@ dubbo:
   application:
     name: ${spring.application.name}
 
-  protocol:
-    name: dubbo
-    port: 8909
-    serialization: hessian2
+
 
   registry:
     address: N/A
   provider:
     timeout: 9999
+    protocols:
+      -
+        name: dubbo
+        port: 8909
+        serialization: hessian2
+      -
+        name: dubbo
+        port: 8910
+        serialization: protobuf
+
+
+
   consumer:
     timeout: 6666
